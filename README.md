@@ -13,18 +13,20 @@ Link : https://getcomposer.org/download/
 command : cd (file location)</br>
 
 2. Clone Project </br>
+git clone : https://github.com/luqmanahmad5149/phonebook.git </br>
 
-2. Run composer install</br>
+3. Run composer install</br>
 
-3. Run npm install</br>
+4. Create new database </br>
+-> DB name : phonebook </br>
 
-4. Run npm run dev</br>
+5. Open Visual Studio -> copy & paste file env -> rename to .env</br>
 
-5. Create new database</br>
--> DB name : fakhri.sql
+6. Setup database information on .env</br>
 
-6. Open Visual Studio -> copy& paste file .env.example -> rename to .env</br>
+7. Run php spark migrate</br>
 
-7. Run php artisan key:generate</br>
+8. Database seed (add 40 contact information)</br>
+Run php spark db:seed ContactSeeder </br>
 
-8. Run php artisan serve</br>
+8. Run php spark serve</br>
