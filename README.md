@@ -9,11 +9,11 @@ Link : https://getcomposer.org/download/
 
 
 ## Start the Project
-1. Change directory to file location</br>
-command : cd (file location)</br>
-
-2. Clone Project </br>
+1. Clone Project </br>
 git clone : https://github.com/luqmanahmad5149/phonebook.git </br>
+
+2. Change directory to file location</br>
+command : cd (file location)</br>
 
 3. Run composer install</br>
 
